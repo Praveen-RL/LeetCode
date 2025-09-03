@@ -1,0 +1,14 @@
+// Last updated: 9/3/2025, 10:50:05 AM
+class Solution {
+    public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        String a="";
+        String b="";
+        for(int i=0;i<word1.length;i++){
+            a+=word1[i];
+        }
+        for(int i=0;i<word2.length;i++){
+            b+=word2[i];
+        }
+        return a.equals(b);
+    }
+}
